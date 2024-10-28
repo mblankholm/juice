@@ -2,14 +2,18 @@
 
 ### Solution
 
-* Wrapped the assignment into a symfony app
+* Wrapped the assignment into a symfony app, added the classes just as repositories.
 * Rewrote the tests for PHPUnit
 * Removed unnecessary classes and merged the methods into the 2 existing classes
 * Rewrote and added some new methods to support transactions and a better transaction history
 
 ![img.png](img.png)
 
-### Description of the assignment
+### Install and Setup
+
+Just pull repo, run `composer install` and then `bin/phpunit` to run tests. Use `bin/phpunit --coverage-text` if you have a coverage driver available.
+
+### Original description of the assignment
 This file contains two classes which represents a bank and its bank accounts.
 Both classes are very badly implemented following no standards and contains a lot of errors.
 
