@@ -7,11 +7,14 @@
 * Removed unnecessary classes and merged the methods into the 2 existing classes
 * Rewrote and added some new methods to support transactions and a better transaction history
 
+### Test results
 ![img.png](img.png)
 
 ### Install and Setup
 
-Just pull repo, run `composer install` and then `bin/phpunit` to run tests. Use `bin/phpunit --coverage-text` if you have a coverage driver available.
+Just pull repo, run `composer install` and then `bin/phpunit` to run tests. Use `bin/phpunit --coverage-text` if you have a coverage driver like xdebug available. 
+
+Files are located in the `src` folder.
 
 ### Original description of the assignment
 This file contains two classes which represents a bank and its bank accounts.
